@@ -16,7 +16,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Offline searching
 - [ ] Features vs. index file size
 
-## "Nice to know" knoledge on search-index
+## "Nice to know" knowledge on search-index
 - [ ] How does an/the index work (matcher/searcher)
 - [ ] Pitfalls
 
