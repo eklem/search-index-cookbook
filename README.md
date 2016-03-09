@@ -1,5 +1,5 @@
 # search-index-cookbook
-A collection of recipes and how to's on interesting use cases with [Fergus Mcdowall's](https://github.com/fergiemcdowall)  [search-index](https://github.com/fergiemcdowall/search-index)
+A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index)
 Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained.
 
 Already suggested topics:
