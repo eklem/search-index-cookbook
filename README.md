@@ -2,7 +2,7 @@
 A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index)
 Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained.
 
-Already suggested topics:
+## Recipes / topics:
 - [ ] Autocomplete (matcher) (with more than one word)
 - [ ] Indexing only for an autocomplete function
 - [ ] "Phrase search"
@@ -15,7 +15,10 @@ Already suggested topics:
 - [ ] Running in the browser
 - [ ] Offline searching
 - [ ] Features vs. index file size
-- [ ] Pitfalls
+
+## "Nice to know" knoledge on search-index
 - [ ] How does an/the index work (matcher/searcher)
+- [ ] Pitfalls
+
 
 Will contain three parts: Recipes, example code and indexers to get example data.
