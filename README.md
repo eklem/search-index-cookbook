@@ -16,4 +16,4 @@ Already suggested topics:
 - [ ] Features vs. index file size
 - [ ] Pitfalls
 
-Will contain three parts: Recipes, example code and example data.
+Will contain three parts: Recipes, example code and indexers to get example data.
