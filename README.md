@@ -7,6 +7,7 @@ Already suggested topics:
 - [ ] Indexing only for an autocomplete function
 - [ ] "Phrase search"
 - [ ] Faceted/filtered search
+- [ ] Price & geographical filtering with filter ranges
 - [ ] Hit highlighting
 - [ ] Stopwords
 - [ ] Field weighting
