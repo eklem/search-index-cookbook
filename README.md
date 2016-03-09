@@ -4,6 +4,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## Recipes / topics:
 - [ ] Autocomplete (matcher) (with more than one word)
+- [ ] Enabling search from the browser search box
 - [ ] Indexing only for an autocomplete function
 - [ ] "Phrase search"
 - [ ] Faceted/filtered search
@@ -23,4 +24,8 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] The query object
 
 
-Will contain three parts: Recipes, example code and indexers to get example data.
+## Cookbook will contain three parts:
+- Recipes documentation
+- Example code (interactive indexers, matchers, searchers) running in the browser
+- References chapter
+
