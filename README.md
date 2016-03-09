@@ -11,7 +11,8 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Price & geographical filtering with filter ranges
 - [ ] Hit highlighting
 - [ ] Stopwords
-- [ ] Field weighting
+- [ ] Weighting on fields
+- [ ] Weighting some docs higher/lower through batches
 - [ ] Fielded search
 - [ ] Running in the browser
 - [ ] Offline searching
