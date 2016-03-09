@@ -14,5 +14,6 @@ Already suggested topics:
 - [ ] Running in the browser
 - [ ] Offline searching
 - [ ] Features vs. index file size
+- [ ] Pitfalls
 
 Will contain three parts: Recipes, example code and example data.
