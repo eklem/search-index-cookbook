@@ -15,5 +15,6 @@ Already suggested topics:
 - [ ] Offline searching
 - [ ] Features vs. index file size
 - [ ] Pitfalls
+- [ ] How does an/the index work (matcher/searcher)
 
 Will contain three parts: Recipes, example code and indexers to get example data.
