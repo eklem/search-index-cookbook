@@ -16,9 +16,11 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Offline searching
 - [ ] Features vs. index file size
 
-## "Nice to know" knowledge on search-index
-- [ ] How does an/the index work (matcher/searcher)
-- [ ] Pitfalls
+## Reference
+- [ ] The index - How does it work (matcher/searcher)
+- [ ] Pitfalls when developing with search-index
+- [ ] The indexing config object
+- [ ] The query object
 
 
 Will contain three parts: Recipes, example code and indexers to get example data.
