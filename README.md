@@ -17,6 +17,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Running in the browser
 - [ ] Offline searching
 - [ ] Features vs. index file size
+- [ ] Percolator, or how to set up query subscription 
 
 ## Reference
 - [ ] The index - How does it work (matcher/searcher)
@@ -27,6 +28,6 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## Cookbook will contain three parts:
 - Recipes documentation
-- Example code (interactive indexers, matchers, searchers) running in the browser
+- Example code (interactive indexers, matchers, searchers) running in the browser. Or example code working with search-index-indexer.
 - References chapter
 
