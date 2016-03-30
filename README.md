@@ -2,12 +2,16 @@
 A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index)
 Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained.
 
+## Topics
+
+- [How to tune relevancy?](doc/topics/field-weighting.md#strategies-for-getting-the-best-documents-on-top-for-any-given-query-term)
+
 ## References
 
-### [Pitfalls when developing with search-index](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#pitfalls-when-developing-with-search-index)
+### [Pitfalls when developing with search-index](doc/reference/pitfalls.md#pitfalls-when-developing-with-search-index)
 
-- [Data indexed but no search results](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#data-indexed-but-no-search-results)
-- [Facets / filters not working](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#facets--filters-not-working)
+- [Data indexed but no search results](doc/reference/pitfalls.md#data-indexed-but-no-search-results)
+- [Facets / filters not working](doc/reference/pitfalls.md#facets--filters-not-working)
 
 ## TODO
 ### Recipes / topics:
@@ -19,7 +23,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Price & geographical filtering with filter ranges
 - [ ] Hit highlighting
 - [ ] Stopwords
-- [ ] Weighting fields: Strategies for weighting fields indexing and query side
+- [x] Weighting fields: Strategies for weighting fields indexing and query side
 - [ ] Fielded search
 - [ ] Running in the browser
 - [ ] Offline searching
