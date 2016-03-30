@@ -1,18 +1,18 @@
-#Pitfalls when developing with search-index
+# Pitfalls when developing with search-index
 
 ##Data indexed, but no search results
 An error that is easy to do when you have indexed some content, and want to check if the content actually was indexed right, is to search with a word that exists in the list of stopwords. This, and the fact that search-index only does AND-searches, makes a query containing any stopword return 0 results.
 
 A list of stopwords is a list that contains a lot of small words bearing little or no meaning, and thus doesn't help in distinguishing documents from each other. These words are therefore stripped from away from the word index.
 
-###Default stopword list configuration 
+### Default stopword list configuration 
 ```json
   {
     stopwords: SearchIndex.getStopwords('en'),
   }
 ```
 
-###Stopwords for the English language
+### Stopwords for the English language
 ```javascript
 [
   'about', 'after', 'all', 'also', 'am', 'an', 'and', 'another', 'any', 'are', 'as', 'at', 'be',
@@ -30,6 +30,23 @@ A list of stopwords is a list that contains a lot of small words bearing little 
   '2', '3', '4', '5', '6', '7', '8', '9', '0', '_']
 ```
 
-
-###Available languages for stopword lists
+### Available languages for stopword lists
 [Supported languages](https://github.com/fergiemcdowall/stopword/tree/master/lib): en, es, fa, fr, it, ja, nl, no, pl, pt, ru, zh. The lists are not very long, and creating one yourself is quite easy.
+
+## Facets / filters not working
+This is easy to do wrong when you have a facet with only one filter per document. For a facet `tags`, the filter should still be an array, even if only an array of one.
+
+Example:
+```json
+[
+    {
+        "date": 1415780040000,
+        "title": "My title",
+        "text": "Some text that fits the title",
+        "tags": [
+            "json"
+        ],
+        "id": "3UqUi1"
+    }
+]
+```
