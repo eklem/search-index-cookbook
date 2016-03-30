@@ -6,9 +6,8 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ### [Pitfalls when developing with search-index](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#pitfalls-when-developing-with-search-index)
 
-#### [Data indexed but no search results](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#data-indexed-but-no-search-results)
-
-#### [Facets / filters not working](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#facets--filters-not-working)
+- [Data indexed but no search results](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#data-indexed-but-no-search-results)
+- [Facets / filters not working](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#facets--filters-not-working)
 
 ## TODO
 ### Recipes / topics:
