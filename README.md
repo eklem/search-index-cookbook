@@ -2,7 +2,16 @@
 A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index)
 Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained.
 
-## Recipes / topics:
+## References
+
+### [Pitfalls when developing with search-index](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#pitfalls-when-developing-with-search-index)
+
+#### [Data indexed but no search results](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#data-indexed-but-no-search-results)
+
+#### [Facets / filters not working](https://github.com/eklem/search-index-cookbook/blob/master/doc/reference/pitfalls.md#facets--filters-not-working)
+
+## TODO
+### Recipes / topics:
 - [ ] Autocomplete (matcher) (with more than one word)
 - [ ] Enabling search from the browser search box
 - [ ] Indexing only for an autocomplete function
@@ -19,14 +28,14 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Features vs. index file size
 - [ ] Percolator, or how to set up query subscription 
 
-## Reference
+### Reference
 - [ ] The index - How does it work (matcher/searcher)
-- [ ] Pitfalls when developing with search-index
+- [x] Pitfalls when developing with search-index
 - [ ] The indexing config object
 - [ ] The query object
 
 
-## Cookbook will contain three parts:
+### Cookbook will contain three parts:
 - Recipes documentation
 - Example code (interactive indexers, matchers, searchers) running in the browser. Or example code working with search-index-indexer.
 - References chapter
