@@ -1,6 +1,6 @@
 # search-index-cookbook
 A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index)
-Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained.
+Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. We've created a [simple indexer for debug purposes](/eklem/search-index-indexer) so it's easy to test out any given JSON data set and config.
 
 ## Topics
 
