@@ -31,7 +31,7 @@ A list of stopwords is a list that contains a lot of small words bearing little 
 ```
 
 ### Available languages for stopword lists
-[Supported languages](https://github.com/fergiemcdowall/stopword/tree/master/lib): en, es, fa, fr, it, ja, nl, no, pl, pt, ru, zh. The lists are not very long, and creating one yourself is quite easy.
+[Supported languages](https://github.com/fergiemcdowall/stopword/tree/master/lib): en, es, fa, fr, it, ja, nl, no, pl, pt, ru, zh. A list of stopwords is not very long, and creating one yourself is quite easy.
 
 ## Facets / filters not working
 This is easy to do wrong when you have a facet with only one filter per document. For a facet `tags`, the filter should still be an array, even if only an array of one.
