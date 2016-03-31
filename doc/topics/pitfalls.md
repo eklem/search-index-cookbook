@@ -9,7 +9,7 @@ An error that is easy to do when you have indexed some content, and want to chec
 This is easy to do wrong when you have a facet with only one filter per document. For a facet `tags`, the filter should still be an array, even if only an array of one.
 
 Example:
-```json
+```javascript
 [
     {
         "date": 1415780040000,

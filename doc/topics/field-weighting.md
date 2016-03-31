@@ -9,7 +9,7 @@ Most search engines have a relevancy model based on `tf-idf` or something simila
 The default field weight in `search-index` is 1, and this can be set independently per field. In the example below, the field `tags` is set more important than the field `title`, which is again set more important than the field `body`. So a word from your query term found in the `tags`-field gives that document a higher score, than if the word was found the same amount of time in the `title`- or `body`-field.
 
 Example:
-```json
+```javascript
 fieldOptions: [
   {fieldName: 'title',  weight: 2},
   {fieldName: 'tags',  weight: 3},
