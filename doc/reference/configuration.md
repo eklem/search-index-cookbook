@@ -35,8 +35,8 @@ And last, you have the per field options. Typically, memory and space hogging fe
 }
 ```
 
-## A full batch and field configuration example
-!! More to come
+## Configuration example
+!! More to come. Should match query object example and document object example
 
 ```
   [

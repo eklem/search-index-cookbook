@@ -17,6 +17,8 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 ## References
 
 - [configuration](/doc/reference/configuration.md)
+- [document object](/doc/reference/document-object.md)
+- [query object](/doc/reference/query-object.md)
 - [search index](/doc/reference/search-index.md)
 - [stopwords](/doc/reference/stopwords.md)
 
