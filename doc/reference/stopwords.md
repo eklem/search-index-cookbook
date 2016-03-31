@@ -1,6 +1,6 @@
 # Stopwords
 
-Stopwords is a list that contains a lot of small words bearing little or no meaning, and thus doesn't help in distinguishing documents from each other. These words are therefore stripped from away from the [word index](/doc/reference/search-index.md#word-index).
+Stopwords is a list that contains a lot of small words bearing little or no meaning, and thus doesn't help in distinguishing documents from each other. These words are therefore stripped from away from the [word index](search-index.md#word-index).
 
 ## Default stopword list configuration 
 ```javascript

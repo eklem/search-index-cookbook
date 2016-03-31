@@ -1,6 +1,6 @@
 # The query object
 
-To understand the query object, it's good to have a matching [configuration](/doc/reference/configuration.md#configuration-example) example and [document](/doc/reference/document-object.md#document-example) example.
+To understand the query object, it's good to have a matching [configuration](configuration.md#configuration-example) example and [document](document-object.md#document-example) example.
 
 A nice thing about the query object is that is's JSON. That has some benefits:
 
