@@ -12,7 +12,7 @@
         "index",
         "search-index",
         "search-index-cookbook",
-        "norch",
+        "norch"
     ],
     "repository": {
         "type": "git",
