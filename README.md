@@ -8,10 +8,10 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## References
 
-### [Pitfalls when developing with search-index](doc/reference/pitfalls.md#pitfalls-when-developing-with-search-index)
+## Pitfalls
 
-- [Data indexed but no search results](doc/reference/pitfalls.md#data-indexed-but-no-search-results)
-- [Facets / filters not working](doc/reference/pitfalls.md#facets--filters-not-working)
+- [Data indexed but no search results](doc/topics/pitfalls.md#data-indexed-but-no-search-results)
+- [Facets / filters not working](doc/topics/pitfalls.md#facets--filters-not-working)
 
 ## TODO
 ### Recipes / topics:
