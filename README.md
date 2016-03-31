@@ -4,25 +4,33 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## Topics
 
-- [How to tune relevancy?](doc/topics/field-weighting.md#strategies-for-getting-the-best-documents-on-top-for-any-given-query-term)
-
-## References
+- [Autosuggest: How to use the matcher](doc/topics/autosuggest.md)
+- [Create your own stopwords list, filter out the weed](doc/topics/stopwords-filtering-away-garbage.md)
+- [How to tune relevancy?](doc/topics/field-weighting.md)
+- [Index size and searching speed tradeoffs](doc/topics/size-speed-tradeoffs.md)
 
 ## Pitfalls
 
 - [Data indexed but no search results](doc/topics/pitfalls.md#data-indexed-but-no-search-results)
 - [Facets / filters not working](doc/topics/pitfalls.md#facets--filters-not-working)
 
+## References
+
+- [search index](doc/reference/search-index.md)
+- [stopwords](doc/reference/stopwords.md)
+
+
+
 ## TODO
 ### Recipes / topics:
-- [ ] Autocomplete (matcher) (with more than one word)
+- [ ] Autosuggest / autocomplete (matcher) (with more than one word)
 - [ ] Enabling search from the browser search box
 - [ ] Indexing only for an autocomplete function
 - [ ] "Phrase search"
 - [ ] Faceted/filtered search
 - [ ] Price & geographical filtering with filter ranges
 - [ ] Hit highlighting
-- [ ] Stopwords
+- [x] Stopwords
 - [x] Weighting fields: Strategies for weighting fields indexing and query side
 - [ ] Fielded search
 - [ ] Running in the browser
@@ -31,10 +39,12 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [ ] Percolator, or how to set up query subscription 
 
 ### Reference
-- [ ] The index - How does it work (matcher/searcher)
+- [x] The index - How does it work
+- [ ] The index - matcher
 - [x] Pitfalls when developing with search-index
 - [ ] The indexing config object
 - [ ] The query object
+- [x] Stopwords
 
 
 ### Cookbook will contain three parts:
