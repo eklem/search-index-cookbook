@@ -16,6 +16,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## References
 
+- [configuration](/doc/reference/configuration.md)
 - [search index](/doc/reference/search-index.md)
 - [stopwords](/doc/reference/stopwords.md)
 
@@ -42,13 +43,13 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [x] The index - How does it work
 - [ ] The index - matcher
 - [x] Pitfalls when developing with search-index
-- [ ] The indexing config object
+- [x] The config stuff
 - [ ] The query object
 - [x] Stopwords
 
 
 ### Cookbook will contain three parts:
 - Recipes documentation
-- Example code (interactive indexers, matchers, searchers) running in the browser. Or example code working with search-index-indexer.
+ - Example code (interactive indexers, matchers, searchers) running in the browser. Or example code working with search-index-indexer.
 - References chapter
 
