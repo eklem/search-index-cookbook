@@ -1,0 +1,21 @@
+{
+    "name": "search-index-cookbook",
+    "description": "A collection of recipes and how to's on interesting use cases with search-index",
+    "version": "0.0.1",
+    "homepage": "https://github.com/eklem/search-index-cookbook",
+    "license": "MIT",
+    "author": {
+        "email": "espen.klem@gmail.com",
+        "name": "Espen Klem"
+    },
+    "keywords": [
+        "index",
+        "search-index",
+        "search-index-cookbook",
+        "norch",
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eklem/search-index-cookbook.git"
+    }
+}

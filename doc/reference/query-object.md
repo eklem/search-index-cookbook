@@ -8,7 +8,6 @@ A nice thing about the query object is that is's JSON. That has some benefits:
 - Linking to a search result
 - Creating links that utilise hidden features
 
-
 ## Query object example
 
 ```json
