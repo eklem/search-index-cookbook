@@ -25,33 +25,5 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 
 ## TODO
-### Recipes / topics:
-- [ ] Autosuggest / autocomplete (matcher) (with more than one word)
-- [ ] Enabling search from the browser search box
-- [ ] Indexing only for an autocomplete function
-- [ ] "Phrase search"
-- [ ] Faceted/filtered search
-- [ ] Price & geographical filtering with filter ranges
-- [ ] Hit highlighting
-- [x] Stopwords
-- [x] Weighting fields: Strategies for weighting fields indexing and query side
-- [ ] Fielded search
-- [ ] Running in the browser
-- [ ] Offline searching
-- [ ] Features vs. index file size
-- [ ] Percolator, or how to set up query subscription 
-
-### Reference
-- [x] The index - How does it work
-- [ ] The index - matcher
-- [x] Pitfalls when developing with search-index
-- [x] The config stuff
-- [ ] The query object
-- [x] Stopwords
-
-
-### Cookbook will contain three parts:
-- Recipes documentation
- - Example code (interactive indexers, matchers, searchers) running in the browser. Or example code working with search-index-indexer.
-- References chapter
+Work wery much in progress. A long [list of things yet to do](https://github.com/eklem/search-index-cookbook/issues). And you're more than welcome to [suggest new recipes & topics](https://github.com/eklem/search-index-cookbook/issues/new).
 
