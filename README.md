@@ -13,7 +13,6 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 ## Pitfalls
 
 - [Data indexed but no search results](./doc/topics/pitfalls.md#data-indexed-but-no-search-results)
-- [Facets / filters not working](./doc/topics/pitfalls.md#facets--filters-not-working)
 
 ## References
 
