@@ -18,7 +18,7 @@ A nice thing about the query object is that is's JSON. That has some benefits:
     ]
   },
   "categories":{
-    "categoryName",
+    "field": "categoryName",
     "sort":"keyAsc",
     "limit":10
   },
