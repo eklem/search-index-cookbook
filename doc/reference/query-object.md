@@ -17,11 +17,10 @@ A nice thing about the query object is that is's JSON. That has some benefits:
       "query"
     ]
   },
-  "facets":{
-    "facetName":{
-      "sort":"keyAsc",
-      "limit":10
-    }
+  "categories":{
+    "categoryName",
+    "sort":"keyAsc",
+    "limit":10
   },
   "teaser":"body",
   "maxFacetLimit":100,
