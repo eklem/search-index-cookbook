@@ -10,7 +10,6 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## Topics
 
-- [Autosuggest: How to use the matcher](./doc/topics/autosuggest.md)
 - [Create your own stopwords list, filter out the weed](./doc/topics/stopwords-filtering-away-garbage.md)
 - [How to tune relevancy?](./doc/topics/field-weighting.md)
 - [Index size and searching speed tradeoffs](./doc/topics/size-speed-tradeoffs.md)
