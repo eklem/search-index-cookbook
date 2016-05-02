@@ -8,4 +8,4 @@ The term index is a reverse index / inverted index. How many letter to type befo
 How long the terms can be is defined by the [nGramLength option](../reference/configuration.md) when adding documents to the search engine.
 
 ## Stopwords
-If you have defined a [stopwords]((stopwords.md)) list, these wil not be available for the matcher.
+If you have defined a [stopwords](stopwords.md) list, these wil not be available for the matcher.
