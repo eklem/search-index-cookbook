@@ -23,7 +23,6 @@ A nice thing about the query object is that is's JSON. That has some benefits:
     "limit":10
   },
   "teaser":"body",
-  "maxFacetLimit":100,
   "offset":0,
   "pageSize":100
 }

@@ -1,8 +1,8 @@
 # Stopwords
 
-Stopwords is a list that contains a lot of small words bearing little or no meaning, and thus doesn't help in distinguishing documents from each other. These words are therefore stripped from away from the [word index](search-index.md#word-index).
+Stopwords is a list that contains a lot of small words bearing little or no meaning, and thus doesn't help in distinguishing documents from each other. These words are therefore stripped from away from the [word / term index](search-index.md#word-index) that the matcher uses, but not from the actual documents.
 
-## Default stopword list configuration 
+## Default stopword list configuration
 ```javascript
   {
     stopwords: SearchIndex.getStopwords('en'),

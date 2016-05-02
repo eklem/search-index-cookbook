@@ -20,7 +20,7 @@ Then you can do stuff per batch, when you add stuff to the index. Anything you s
     batchName: 'my batch',
     fieldOptions: [],                                 //none
     fieldsToStore: SearchIndex.options.fieldsToStore, //inherited from initialization options
-    defaultFieldOptions: defaultFieldOptions          //can be overrided per field  
+    defaultFieldOptions: defaultFieldOptions          //can be overrided per field
   }
 ```
 
