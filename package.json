@@ -1,7 +1,7 @@
 {
     "name": "search-index-cookbook",
     "description": "A collection of recipes and how to's on interesting use cases with search-index",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "homepage": "https://github.com/eklem/search-index-cookbook",
     "license": "MIT",
     "author": {
@@ -11,6 +11,7 @@
     "keywords": [
         "index",
         "search-index",
+        "search-index-searcher",
         "search-index-cookbook",
         "norch"
     ],
