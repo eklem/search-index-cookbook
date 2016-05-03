@@ -59,7 +59,7 @@ On your webserver / webapp root, create the file opensearch.xml. Change the `[UR
 ```html
 <html>
     <head profile="http://a9.com/-/spec/opensearch/1.1/">
-    <!--- ... --->
+    <!-- ... -->
         <link rel="search"
             type="application/opensearchdescription+xml"
             href="http://[URL]/opensearch.xml"
