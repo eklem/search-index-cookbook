@@ -21,12 +21,13 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## References
 
-- [configuration](./doc/reference/configuration.md)
-- [document object](./doc/reference/document-object.md)
-- [matcher](./doc/reference/matcher.md)
-- [query object](./doc/reference/query-object.md)
-- [search index](./doc/reference/search-index.md)
-- [stopwords](./doc/reference/stopwords.md)
+- [configuration](./doc/reference/references.md#configuration)
+- [document object](./doc/reference/references.md#document-object)
+- [matcher](./doc/reference/references.md#matcher)
+- [query object](./doc/reference/references.md#query-object)
+- [search index](./doc/reference/references.md#search-index)
+- [stopwords](./doc/reference/references.md#stopwords)
+- [3rd party modules](./doc/reference/3rd-party-modules.md)
 
 
 
