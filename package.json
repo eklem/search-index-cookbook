@@ -13,7 +13,9 @@
         "search-index",
         "search-index-searcher",
         "search-index-cookbook",
-        "norch"
+        "norch",
+        "search",
+        "full-text search"
     ],
     "repository": {
         "type": "git",
