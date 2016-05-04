@@ -56,7 +56,7 @@ The full array could look somethin like:
 
 
 ## opensearch.xml
-On your webserver / webapp root, create the file `opensearchdescription.xml`. Change the `[URL]` to your URL:
+On your webserver / webapp root, create the file `opensearch.xml`. Change the `[URL]` to your URL:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
@@ -82,7 +82,7 @@ On your webserver / webapp root, create the file `opensearchdescription.xml`. Ch
     <!-- ... -->
         <link rel="search"
             type="application/opensearchdescription+xml"
-            href="http://[URL]/opensearchdescription.xml"
+            href="http://[URL]/opensearch.xml"
             title="[Your Site] Search" />
         </head>
     <body>

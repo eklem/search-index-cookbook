@@ -29,6 +29,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [search index](./doc/reference/references.md#search-index)
 - [stopwords](./doc/reference/references.md#stopwords)
 - [3rd party modules](./doc/reference/3rd-party-modules.md)
+- [Get it running on system [x]](./doc/reference/get-it-running-on-x.md)
 
 
 
