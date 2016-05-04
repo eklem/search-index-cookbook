@@ -1,10 +1,10 @@
 # Browser search with autosuggest
-
+There is a standard called [OpenSearch](http://www.opensearch.org/) that defines what a search engine should return and have to be autodiscovered by browsers' search box.
 
 ## What you need
 - A search index
 - norch (with search-index) installed, pointing to your search index
-- A frontend, i.e norch-angular-app or your frontend
+- A frontend, i.e norch-angular-app or any other search frontend of your choice
 
 ## Duplicate the norch matcher
 You don't have to duplicate it, but okay to not ruin your search solution's autosuggest, if you have one.
@@ -27,12 +27,32 @@ For "que" as the query:
 ```json
 ["que",
   ["query",
-   "query suggestion",
-   "query completion"
+   "query+suggestion",
+   "query+completion"
   ]
 ]
 ```
-So you want it to return the actuall query as well.
+So you want it to return the actuall query as well. And it's wrapped as an array because it can be expanded to contain number of document hits and a kind of redirect URL. The redirect URL means you can use the search engine as a autosuggest only, and redirect to another instance of your search engine or another search engine.
+
+The full array could look somethin like:
+
+```json
+["que",
+  ["query",
+   "query+suggestion",
+   "query+completion"
+  ],
+  ["123 results",
+   "97 results",
+   "4 results"
+  ],
+  [
+   "http://google.com?q=query",
+   "http://google.com?q=query+suggestion",
+   "http://google.com?q=query+completion",
+  ]
+]
+```
 
 
 ## opensearch.xml
