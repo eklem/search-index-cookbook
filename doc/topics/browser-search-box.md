@@ -1,5 +1,5 @@
 # Browser search with autosuggest
-There is a standard called [OpenSearch](http://www.opensearch.org/) that defines what a search engine should return and have to be autodiscovered by browsers' search box.
+There is a standard called [OpenSearch](http://www.opensearch.org/) that defines how a browser search box and a search engine should interact. More exact what a search engine should return and have to be autodiscovered by browsers' search box and how to set up autosuggest / autogcomplete in the browser for your search engine.
 
 ## What you need
 - A search index
@@ -7,7 +7,7 @@ There is a standard called [OpenSearch](http://www.opensearch.org/) that defines
 - A frontend, i.e norch-angular-app or any other search frontend of your choice
 
 ## Duplicate the norch matcher
-You don't have to duplicate it, but okay to not ruin your search solution's autosuggest, if you have one.
+You don't have to duplicate the [`search-index-matcher`](https://github.com/fergiemcdowall/search-index-matcher), but okay to do if you don't want to ruin your search solution's autosuggest, if you have one.
 
 Call it opensearchsuggest. It will be the endpoint that the opensearch.xml reference to, and that the browser searchbox talks to.
 
@@ -56,7 +56,7 @@ The full array could look somethin like:
 
 
 ## opensearch.xml
-On your webserver / webapp root, create the file opensearch.xml. Change the `[URL]` to your URL:
+On your webserver / webapp root, create the file `opensearchdescription.xml`. Change the `[URL]` to your URL:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
@@ -82,12 +82,13 @@ On your webserver / webapp root, create the file opensearch.xml. Change the `[UR
     <!-- ... -->
         <link rel="search"
             type="application/opensearchdescription+xml"
-            href="http://[URL]/opensearch.xml"
-            title="[Site] Search" />
+            href="http://[URL]/opensearchdescription.xml"
+            title="[Your Site] Search" />
         </head>
-   <body>
-    ...
-   </body>
+    <body>
+        <h1>[Your site]</h1>
+        ...
+    </body>
 </html>
 
 ```
