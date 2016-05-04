@@ -32,7 +32,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 
 ## Get up and running with Node and NMP
 
-- [Get it running on system [x]](./doc/reference/get-it-running-on-x.md)
+- [Get it running on system [x]](./doc/get-it-running-on-x.md)
 
 
 
