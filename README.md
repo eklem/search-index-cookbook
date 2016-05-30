@@ -6,7 +6,7 @@
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
 
-Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. We've created a [simple indexer for debug purposes](https://github.com/eklem/search-index-indexer) so it's easy to test out any given JSON data set and config.
+Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. Check the [prerequisits](./doc/reference/prerequisits.md) for getting the most out of the cookbook.
 
 ## Topics
 - [Autosuggest or autocomplete - how to use the matcher](./doc/topics/autosuggest.md)
