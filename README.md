@@ -22,13 +22,12 @@ A collection of recipes and how to's on interesting use cases with [search-index
 
 ## References
 - [prerequisits](./doc/reference/prerequisits.md)
-
 - [configuration](./doc/reference/references.md#configuration)
 - [document object](./doc/reference/references.md#document-object)
-- [matcher](./doc/reference/references.md#matcher)
 - [query object](./doc/reference/references.md#query-object)
-- [search index](./doc/reference/references.md#search-index)
 - [stopwords](./doc/reference/references.md#stopwords)
+- [matcher](./doc/reference/references.md#matcher)
+- [search index](./doc/reference/references.md#search-index)
 - [3rd party modules](./doc/reference/3rd-party-modules.md)
 
 ## Get up and running with Node and NMP
