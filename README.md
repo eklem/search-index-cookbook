@@ -1,12 +1,11 @@
 # search-index-cookbook
-### A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index) (version 0.8.4)
 
 [![Join the chat at https://gitter.im/fergiemcdowall/search-index][gitter-image]][gitter-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
 
-Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. Check the [prerequisits](./doc/reference/prerequisits.md) for getting the most out of the cookbook.
+A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index). Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. Check the [prerequisits](./doc/reference/prerequisits.md) for getting the most out of the cookbook.
 
 ## Topics
 - [Autosuggest or autocomplete - how to use the matcher](./doc/topics/autosuggest.md)
@@ -22,6 +21,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [Data indexed but no search results](./doc/topics/pitfalls.md#data-indexed-but-no-search-results)
 
 ## References
+- [prerequisits](./doc/reference/prerequisits.md)
 
 - [configuration](./doc/reference/references.md#configuration)
 - [document object](./doc/reference/references.md#document-object)
