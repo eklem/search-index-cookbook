@@ -25,7 +25,7 @@ Initial query:
 ```javascript
 [
   {
-    AND: {body: ['order', cab']}
+    AND: {body: ['order', 'cab']}
   }
 ]
 ````
