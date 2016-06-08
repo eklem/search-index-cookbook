@@ -12,6 +12,7 @@ Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookboo
 - [Autosuggest or autocomplete - how to use the matcher](./doc/topics/autosuggest.md)
 - [Autosuggest from the browser search box](./doc/topics/browser-search-box.md)
 - [Create your own stopwords list, filter out the weed](./doc/topics/stopwords-filtering-away-garbage.md)
+- [Fix 0-result queries with synonyms](./doc/topics/synonyms.md)
 - [How to tune relevancy?](./doc/topics/field-weighting.md)
 - [Index size and searching speed tradeoffs](./doc/topics/size-speed-tradeoffs.md)
 - [Indexing large data sets](./doc/topics/large-datasets.md)
