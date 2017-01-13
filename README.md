@@ -1,4 +1,4 @@
-# search-index-cookbook
+# search-index and norch cookbook
 
 [![Join the chat at https://gitter.im/fergiemcdowall/search-index][gitter-image]][gitter-url]
 [![NPM version][npm-version-image]][npm-url]
