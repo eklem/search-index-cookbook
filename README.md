@@ -5,7 +5,7 @@
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
 
-NOT COMPATIBLE WITH LATEST SEARCH-INDEX
+## NOT COMPATIBLE WITH LATEST SEARCH-INDEX !!!
 Version 0.8.x and 0.9.x of had some changes that makes a good part of the guide outdated. Put a comment [on this issue](https://github.com/eklem/search-index-norch-cookbook/issues/27) to get notification when updated is out.
 
 A collection of recipes and how to's on interesting use cases with [search-index](https://github.com/fergiemcdowall/search-index). Feel free to [suggest a new topic](https://github.com/eklem/search-index-cookbook/issues/new) you want explained. Check the [prerequisits](./doc/reference/prerequisits.md) for getting the most out of the cookbook.
